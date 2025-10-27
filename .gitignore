@@ -1,10 +1,10 @@
 # On interdit à Git de stocker des fichiers de données
-data/*.csv
-data/*.zip
-data/*.cpg
-data/*.dbf
-data/*.prj
-data/*.shp
-data/*.shx
-data/*.xlsx
-data/*.zip
+*.csv
+*.zip
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.xlsx
+*.zip

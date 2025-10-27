@@ -1,0 +1,8 @@
+# On interdit à Git de stocker des fichiers de données
+*.csv
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.xlsx

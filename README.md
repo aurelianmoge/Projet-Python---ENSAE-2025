@@ -12,6 +12,10 @@ Les territoires ne sont pas exposés de manière homogène aux effets du changem
 
 Les territoires les plus exposés aux pollutions sont ils également des espaces plus vulnérables socialement ? Quels sont les liens entre vulnérabilité climatique, vulnérabilité sociale et géographie ? Quelles sont les caractéristiques des territoires les plus exposés aux pollutions en Ile-de-France ?
 
+**Plan :**
+
+A RAJOUTER QUAND CE SERA FINALISE
+
 
 **Modèle utilisé :**
 

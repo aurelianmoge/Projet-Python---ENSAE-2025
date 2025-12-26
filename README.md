@@ -25,13 +25,13 @@ Nous avons utilisé principalement la régression logistique qui permet d'estime
 
 - Dossier des installations industrielles rejetant des polluants sur Géorisques (https://files.georisques.fr/irep/2023.zip) (2024) : exploitation des fichiers recensant les établissements polluants, celui concernant les rejets, celui des émissions, et celui des déchets dangereux.
 
-- fichier avec les shapefiles des communes de Data.gouv (https://www.data.gouv.fr/api/1/datasets/r/0e117c06-248f-45e5-8945-0e79d9136165)
+- fichier avec les shapefiles des communes de Data.gouv (https://www.data.gouv.fr/api/1/datasets/r/0e117c06-248f-45e5-8945-0e79d9136165) (2022)
 
-- dossier complet de l'INSEE sur le site Insee.fr (https://www.insee.fr/fr/statistiques/fichier/5359146/dossier_complet.zip)
+- dossier complet de l'INSEE sur le site Insee.fr (https://www.insee.fr/fr/statistiques/fichier/5359146/dossier_complet.zip) (2025)
 
-- fichier sur la pollution de l'air de Data.gouv (https://www.data.gouv.fr/api/1/datasets/r/da7a4869-b584-48ad-8a81-784a02eb297a)
+- fichier sur la pollution de l'air de Data.gouv (https://www.data.gouv.fr/api/1/datasets/r/da7a4869-b584-48ad-8a81-784a02eb297a) (2018)
 
-- fichier avec les shapefiles des communes pour avoir les arrondissements de Paris, depuis le site de la ville de Paris (https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/arrondissements/exports/csv?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B)
+- fichier avec les shapefiles des communes pour avoir les arrondissements de Paris, depuis le site de la ville de Paris (https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/arrondissements/exports/csv?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B) (2016)
 
 Toutes les données récupérées dans ce projet sont en accès public.
 

@@ -23,12 +23,12 @@ Les territoires les plus exposés aux pollutions sont ils également des espaces
 - *1.4. Création de nouvelles variables et sélection des variables d'intérêt*
 
 **Partie 2 : Analyses statistiques descriptives et visualisations**
-- *2.1. Analyse statistique descriptive de la base*
+- *2.1. Description statistique univariée de la base*
 - *2.2. Exploration de la cartographie des pollutions*
 - *2.3. Lien pollution / conditions sociales : premiers essais*
-- *2.4. Pollution et conditions sociales : renversement de perspective*
+- *2.4. Conditions sociales et pollution : renversement de perspective*
 - *2.5. Corrélations entre pollutions*
-- *2.6. Corrélation entre pollution et démographie*
+- *2.6. Corrélations entre pollution et démographie*
 
 **Partie 3 : Modélisation**
 - *3.1. Régression de la qualité de l'air (pm10, o3, no2) sur des variables démographiques et spatiales*
@@ -40,7 +40,7 @@ Les territoires les plus exposés aux pollutions sont ils également des espaces
 
 **Modèle utilisé :**
 
-Nous avons utilisé principalement la régression logistique qui permet d'estimer la concentration atmosphérique en NO2 en fonction de différentes variables explicatives, démographiques, sociales, et géographiques.
+Nous avons utilisé principalement la régression linéaire multiple qui permet d'estimer la concentration atmosphérique en NO2 en fonction de différentes variables explicatives, démographiques, sociales, et géographiques, ainsi que, réciproquement, le revenu médian d'une commune en fonction des conditions spatiales et de l'intensité de l'exposition aux facteurs de pollution.
 
 **Données utilisées :**
 
@@ -63,26 +63,50 @@ Toutes les données récupérées dans ce projet sont en accès public.
 
 **Description des packages :**
 
-- geopandas permet de manipuler des geodataframes.
 
+*Importation de données*
 
-- contextily récupère des cartes sur internet.
-
-
-- matplotlib.pyplot permet de faire des graphiques.
-
-
-- pandas permet de manipuler des dataframes.
+- openpyxl permet d'ouvrir des fichiers Excel.
+  
+- zipfile permet d'extraire les fichiers zip qu'on a importé par requests.
 
 - requests permet de récupérer des url (et en l'occurrence d'importer les données publiques).
 
-- zipfile permet d'extraire les fichiers zip qu'on a importé par requests.
 
-- re permet de travailler avec des expressions régulières.
+*Manipulation de données*
 
-- sklearn est conçu pour le machine learning et permet, dans notre cas, de construire simplement des modèles, notamment de régression linéaire.
+- pandas permet de manipuler des dataframes.
+  
+- geopandas permet de manipuler des geodataframes.
+  
+
+*Visualisation de données*
+
+- matplotlib.pyplot permet de faire des graphiques.
+
+- seaborn permet de faire des graphiques différents, notamment des heatmap (pour les matrices de corrélation principalement dans notre cas)
+  
+- contextily récupère des cartes sur internet.
+
+  
+*Conversion de formats*
+
+- json permet de convertir en json les données des shapefiles.
+
+- shape (depuis shapely.geometry) permet de convertir les jsons en objets Shapely.
+
+  
+*Modalisation statistique*
 
 - scipy est orienté initialement vers le calcul mathématique mais nous permet, après avoir construit nos régressions, de tester simplement les liens statistiques entre les variables. 
 
-- statsmodels.api dispose de fonctions pour la modélisation statistiques absentes de scikit learn, par exemple sm.add_constant et sm.Logit que nous utilisons pour la régression logistique.
+- statsmodels permet de calculer les VIF (avec variance_inflation_factor depuis statsmodels.stats.outliers_influence), de réaliser des tests d'hétéroscédasticité...
 
+- sklearn est utile pour le Machine Learning ; dans notre cas, nous utilisons statsmodels pour les régressions mais StandardScaler (depuis sklearn.preprocessing) pour standardiser les variables explicatives. 
+
+
+*Analyse spatiale*
+
+- Moran (depuis edsa) permet de réaliser des tests de Moran (pour l'analyse de l'autocorrélation spatiale)
+
+- Queen (depuis libpysal.weights) permet de créer des matrices de voisinage spatiales, et notamment d'analyser les clusters locaux (LISA) dans notre cas.

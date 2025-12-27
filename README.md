@@ -69,7 +69,7 @@ Toutes les données récupérées dans ce projet sont en accès public.
 
 **Navigation au sein du projet :**
 
- Il suffit d'exécuter successivement les cellules du notebook : FICHIER PROPRE.ipynb
+ Il suffit d'exécuter successivement les cellules du notebook : main.ipynb
 
 
 **Description des packages :**

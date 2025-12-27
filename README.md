@@ -34,6 +34,7 @@ Les territoires les plus exposés aux pollutions sont ils également des espaces
 - *3.1. Régression de la qualité de l'air (pm10, o3, no2) sur des variables démographiques et spatiales*
 - *3.2. Analyse de l'autocorrélation spatiale dans notre régression OLS finale*
 - *3.3. Régression du revenu (variable sociale) sur les variables environnementales*
+- *3.4. Saisir les covariations par une ACP*
 
 **Conclusion**
 

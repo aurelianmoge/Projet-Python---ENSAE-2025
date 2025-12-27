@@ -38,6 +38,17 @@ Les territoires les plus exposés aux pollutions sont ils également des espaces
 **Conclusion**
 
 
+
+**Répartition du travail**
+
+Réda : 1.2, 2.2, 2.3, 2.6.
+
+Juliette : 1.1, 2.1, 3.2, 3.3.
+
+Aurélian : 1.3, 1.4, 2.4, 2.5, 3.1
+
+
+
 **Modèle utilisé :**
 
 Nous avons utilisé principalement la régression linéaire multiple qui permet d'estimer la concentration atmosphérique en NO2 en fonction de différentes variables explicatives, démographiques, sociales, et géographiques, ainsi que, réciproquement, le revenu médian d'une commune en fonction des conditions spatiales et de l'intensité de l'exposition aux facteurs de pollution.

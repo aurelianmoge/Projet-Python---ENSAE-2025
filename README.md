@@ -17,23 +17,23 @@ Les territoires les plus exposés aux pollutions sont ils également des espaces
 **Introduction**
 
 **Partie 1 : Importation des données**
-*1.1. Données de pollution industrielle*
-*1.2. Données géographiques et sociodémographiques*
-*1.3. Recodage pour l'Ile-de-France*
-*1.4. Création de nouvelles variables et sélection des variables d'intérêt*
+- *1.1. Données de pollution industrielle*
+- *1.2. Données géographiques et sociodémographiques*
+- *1.3. Recodage pour l'Ile-de-France*
+- *1.4. Création de nouvelles variables et sélection des variables d'intérêt*
 
 **Partie 2 : Analyses statistiques descriptives et visualisations**
-*2.1. Analyse statistique descriptive de la base*
-*2.2. Exploration de la cartographie des pollutions*
-*2.3. Lien pollution / conditions sociales : premiers essais*
-*2.4. Pollution et conditions sociales : renversement de perspective*
-*2.5. Corrélations entre pollutions*
-*2.6. Corrélation entre pollution et démographie*
+- *2.1. Analyse statistique descriptive de la base*
+- *2.2. Exploration de la cartographie des pollutions*
+- *2.3. Lien pollution / conditions sociales : premiers essais*
+- *2.4. Pollution et conditions sociales : renversement de perspective*
+- *2.5. Corrélations entre pollutions*
+- *2.6. Corrélation entre pollution et démographie*
 
 **Partie 3 : Modélisation**
-*3.1. Régression de la qualité de l'air (pm10, o3, no2) sur des variables démographiques et spatiales*
-*3.2. Analyse de l'autocorrélation spatiale dans notre régression OLS finale*
-*3.3. Régression du revenu (variable sociale) sur les variables environnementales*
+- *3.1. Régression de la qualité de l'air (pm10, o3, no2) sur des variables démographiques et spatiales*
+- *3.2. Analyse de l'autocorrélation spatiale dans notre régression OLS finale*
+- *3.3. Régression du revenu (variable sociale) sur les variables environnementales*
 
 **Conclusion**
 
